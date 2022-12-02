@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Collapse Multiple targets</title>
+  </head>
+
+  <body style="background-color:#FEFEF1;">
+
+  <p>
+    <a style="color:deeppink;" class="btn btn-outline-info" data-bs-toggle="collapse" href="#multiCol1" role="button" aria-expanded="false" aria-controls="multiCol1">ถ้ำกระแซ ทางรถไฟสายมรณะ</a>
+    <button style="color:black;" class="btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#multiCol2" aria-expanded="false" aria-controls="multiCol2">สะพานข้ามแม่น้ำแคว</button>
+    <button style="color:darkorange;" class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCol3" aria-expanded="false" aria-controls="multiCol3">โรงงานกระดาษไทยกาญจนบุรี</button>
+    <button style="color:greenyellow;" class="btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCol1 multiCol2 multiCol3">ซ่อน</button>
+  </p>
+  <div class="row">
+
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCol1">
+        <div class="card card-body">
+            <img src="imag/ubon2.jpg" alt="ถ้ำกระแซ ทางรถไฟสายมรณะ">
+            ที่นี่เป็นจุดชมแม่น้ำแควที่เรียกว่าวิวดีที่สุดในเมืองกาญจนบุรีที่เราเรียกกันว่า ทางรถไฟสายมรณะ ค่ะ ถือว่าเป็นจุดที่สวยที่สุด และอันตรายที่สุดของเส้นทางรถไฟ ด้วยความสูงมากๆ และติดเลียบหน้าผาทำให้เสียวสันหลังเล็กๆ
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCol2">
+        <div class="card card-body">
+            <img src="imag/ubon9.jpg" alt="สะพานข้ามแม่น้ำแคว">
+            แลนด์มาร์คแรกๆ ที่ทำให้เราคิดถึงเมืองกาญจน์ ตรงที่แห่งนี้เป็นจุดเชื่อมโยงของประวัติศาสตร์โลกในหน้าสงครามโลกครั้งที่ 2 และเป็นอนุสรณ์สงครามมหาเอเชียบูรพา
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+        <div class="collapse multi-collapse" id="multiCol3">
+          <div class="card card-body">
+            <img src="imag/ubon18.jpg" alt="โรงงานกระดาษไทยกาญจนบุรี">
+            ดูเผินๆ ภายนอกนั้นเหมือนโรงกระดาษเก่าที่ปล่อยทิ้งร้าง แต่ตอนนี้ โรงกระดาษได้กลับมามีชีวิตอีกครั้งด้วยโครงการอนุรักษ์สถานที่ที่มีความสำคัญทางประวัติศาสตร์ให้แก่คนรุ่นหลัง และส่งเสริมการท่องเที่ยวเชิงวัฒนธรรมของจังหวัดกาญจนบุรีนั่นเอง
+          </div>
+        </div>
+      </div>
+
+  </div>
+</body>
